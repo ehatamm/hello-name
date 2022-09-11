@@ -2,8 +2,8 @@ const express = require('express')
 const app = express()
 const port = 3000
 
-const instructions = 'Send a GET request to "http://hello-ITB8201.duckdns.org/hello/name" where "name" is the name you' +
-    ' want to say hello to.';
+const instructions = 'Send a GET request to "https://hello-itb8201.herokuapp.com//hello/name" where "name" is the' +
+    ' name you want to say hello to.';
 
 app.get('/', (req, res) => {
     res.send(instructions);
